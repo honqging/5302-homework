@@ -1,4 +1,4 @@
-alpha = zeros(7, 12);
+beta = zeros(12, 7);
 b= zeros(7,12);
 
 b(1,:) = [4 3 1 0 -1 -3 -4 -3 -1 0 1 3];
@@ -26,7 +26,24 @@ for x = 1 : 12
 	end
 end
 
-alpha = inv(A' * A) * A' * b';
+beta = inv(A' * A) * A' * b';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
